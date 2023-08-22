@@ -20,17 +20,19 @@ function App() {
           </div>
           {/* 검색창 */}
           <div className='header-search'>
-            <h1>
-              <a>icon</a>
-            </h1>
-            <form>
-              <fieldset>
-                <input type="text" className='header-search__input' />
-                <button className='header-search__button'>input equipment</button>
-                <button className='header-search__button'>dot</button>
-                <button className='header-search__button'>search</button>
-              </fieldset>
-            </form>
+            <div className='search__container'>
+              <h1>
+                <a>icon</a>
+              </h1>
+              <form>
+                <fieldset>
+                  <input type="text" className='header-search__input' />
+                  <button className='header-search__button'>input equipment</button>
+                  <button className='header-search__button'>dot</button>
+                  <button className='header-search__button'>search</button>
+                </fieldset>
+              </form>
+            </div>
           </div>
           {/* 아이콘들 */}
           <div>

@@ -24,23 +24,28 @@
 .header-search {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
+}
+
+.search__container {
+  width: 710px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  border: 1px solid #02C75A;
+  border-radius: 50px;
 }
 
 .header-search__icon {
   display: flex;
   align-items: center;
-  margin-right: 20px;
-  border: 1px solid #02C75A;
-  border-radius: 50px;
   height: 58px;
 }
 
 fieldset {
   padding: 0;
-  border: 1px solid #02C75A;
-  border-radius: 50px;
-  border-left: none;
+  border: none;
 }
 
 .header-search__input {
