@@ -1,3 +1,5 @@
+
+
 .container {
   margin: 0 70px;
 }
@@ -57,4 +59,71 @@ fieldset {
 .header-search__button {
   width: 30px;
   height: 1px;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.menu__container {
+  display: flex;
+  justify-content: space-between;
+  width: 690px;
+}
+
+.menu__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.menu__name {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.layout-container {
+  display: flex;
+  flex-basis: 1;
+  padding-top: 60px;
+  gap: 30px;
+}
+
+.layout-left__column {
+  width: 830px;
+}
+
+.left__ad {
+  height: 130px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.left__news {
+  height: 430px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.news__header {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+}
+
+
+
+.right__login {
+  width: 420px;
+  height: 160px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
