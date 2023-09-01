@@ -19,8 +19,12 @@
   display: flex;
 }
 
-.icons {
-  margin-left: 10px;
+.icons1 {
+  margin-right: 20px;
+}
+
+.icons2 {
+  margin-left: 20px;
 }
 
 .header-search {
@@ -33,16 +37,24 @@
   width: 710px;
   height: 60px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   border: 1px solid #02C75A;
   border-radius: 50px;
+}
+.search__container:hover {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .header-search__icon {
   display: flex;
   align-items: center;
   height: 58px;
+  margin-left: 30px;
+}
+.header-search__icon:hover,
+.header-search__button:hover
+ {
+  cursor: pointer;
 }
 
 fieldset {
@@ -55,11 +67,16 @@ fieldset {
   height: 58px;
   border: none;
 }
+.header-search__input:hover {
+  cursor: text;
+}
 
 .header-search__button {
   width: 30px;
   height: 1px;
+  margin-right: 10px;
 }
+
 
 .header-menu {
   display: flex;
@@ -81,6 +98,11 @@ fieldset {
   height: 50px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 20px;
+}
+
+.menu__icons:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .menu__name {
@@ -107,6 +129,13 @@ fieldset {
   margin-bottom: 20px;
 }
 
+.left__ad__img {
+  object-fit: contain;
+  width: 830px;
+  height: 130px;
+  border-radius: 10px;
+}
+
 .left__news {
   height: 430px;
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -125,5 +154,24 @@ fieldset {
   width: 420px;
   height: 160px;
   border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.login__top {
+  display: flex;
+}
+
+.right__ad {
+  margin-top: 16px;
+  width: 420px;
+  height: 240px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.right__ad__img {
+  width: 420px;
+  height: 240px;
+  object-fit: contain;
   border-radius: 10px;
 }
